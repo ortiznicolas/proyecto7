@@ -6,7 +6,8 @@ car_data = pd.read_csv('datasets/vehicles_us.csv') # leer los datos
 #botones de dispersion
 hist_button = st.button('Construir histograma') # crear un botón
 dis_button= st.checkbox('Construir diagrama de dispersión') # crear un botón
-     
+st.title("Análisis interactivo de vehículos")     
+st.subheader("Explorar los datos con los siguientes gráficos:")
 if hist_button: # al hacer clic en el botón
     # escribir un mensaje
     st.write('Creación de un histograma para el conjunto de datos de anuncios de venta de coches')
